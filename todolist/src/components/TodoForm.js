@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 export const TodoForm = () => {
+  // TODO: Melakukan handleSubmit
   const [value, setValue] = useState("");
 
   const handleSubmit = (e) => {
